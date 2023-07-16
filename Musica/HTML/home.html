@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="home.html">HOME</a>
+            <a href="internacionais.html">INTERNACIONAIS</a>
+            <a href="brasil.html">BRASIL</a>
+        </div>
+        <button>
+            <a id="login" href="login.html">Login</a>
+        </button>
+    </header>
+
+    <h2>Top 3 artistas mais tocados no mundo</h2>
+    <section class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+        
+            <!--Slide images-->
+            <div class="slide first">
+                <img src="/img/taylor.jpg" alt="imagem 1">
+                <div class="texto1">aaaaaaaa</div>
+            </div>
+            <div class="slide">
+                <img src="/img/wknd.jpg" alt="imagem 2">
+            </div>
+            <div class="slide">
+                <img src="/img/ed.jpg" alt="imagem 3">
+            </div>
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+    </div>
+
+    </section>
+
+
+
+
+
+   <script src="/JS/teste_slider.js"></script>
+</body>
+</html>
